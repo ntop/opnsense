@@ -1,0 +1,3 @@
+{% if helpers.exists('OPNsense.nprobe.license.licensekey') %}
+{{ OPNsense.nprobe.license.licensekey }}
+{% endif %}

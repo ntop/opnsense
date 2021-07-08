@@ -1,0 +1,8 @@
+<menu>
+    <Services>
+        <nProbe cssClass="fa fa-binoculars fa-fw">
+            <Settings VisibleName="Settings" order="10" url="/ui/nprobe/general/index" />
+            <Log VisibleName="Log File" order="30" url="/ui/diagnostics/log/core/nprobe" />
+        </nProbe>
+    </Services>
+</menu>

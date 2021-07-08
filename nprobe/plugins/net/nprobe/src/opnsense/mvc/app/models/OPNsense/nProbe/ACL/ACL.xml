@@ -1,0 +1,9 @@
+<acl>
+   <page-nprobe-config>
+      <name>Services: nprobe</name>
+      <patterns>
+         <pattern>ui/nprobe/*</pattern>
+         <pattern>api/nprobe/*</pattern>
+      </patterns>
+   </page-nprobe-config>
+</acl>

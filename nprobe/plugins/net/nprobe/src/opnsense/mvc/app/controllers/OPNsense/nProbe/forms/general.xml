@@ -1,0 +1,55 @@
+<form>
+    <field>
+        <id>general.enabled</id>
+        <label>Enable nProbe</label>
+        <type>checkbox</type>
+        <help>This will activate nProbe.</help>
+    </field>
+    <field>
+        <id>general.interface</id>
+        <label>Interface</label>
+        <type>dropdown</type>
+        <help>Select the interface to listen to.</help>
+    </field>
+    <field>
+        <id>general.zmqendpoint</id>
+        <label>ZMQ Endpoint</label>
+        <type>text</type>
+        <advanced>true</advanced>
+        <help>ZMQ Endpoint this service will send flows to.</help>
+    </field>
+    <field>
+        <id>general.zmqprobemode</id>
+        <label>ZMQ Probe Mode</label>
+        <type>checkbox</type>
+        <advanced>true</advanced>
+        <help>This will let nProbe connect to ntopng, as opposite to ntopng connecting to nProbe (useful in presence of NAT or firewall).</help>
+    </field>
+    <field>
+        <id>general.ipsmode</id>
+        <label>Enable IPS Mode</label>
+        <type>checkbox</type>
+        <help>This will activate inline mode (IPS).</help>
+    </field>
+    <field>
+        <id>general.ips_events</id>
+        <label>Collect IPS Events</label>
+        <type>checkbox</type>
+        <advanced>true</advanced>
+        <help>This will let nProbe receive IPS policies automatically through ZMQ events from ntopng.</help>
+    </field>
+    <field>
+        <id>general.zmq_ips_endpoint</id>
+        <label>Events ZMQ Endpoint</label>
+        <type>text</type>
+        <advanced>true</advanced>
+        <help>ZMQ Endpoint for receiving IPS policies updates published by ntopng.</help>
+    </field>
+    <field>
+        <id>general.ipsconf</id>
+        <label>IPS Configuration</label>
+        <type>textbox</type>
+        <advanced>true</advanced>
+	<help><![CDATA[These lines will be added to the configuration file for the IPS mode. <br/><div class="text-info"><b>NOTE:</b> The syntax will not be checked, use at your own risk!</div>]]></help>
+    </field>
+</form>

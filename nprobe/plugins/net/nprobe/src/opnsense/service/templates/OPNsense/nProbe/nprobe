@@ -1,0 +1,7 @@
+{% if helpers.exists('OPNsense.nprobe.general.enabled') and OPNsense.nprobe.general.enabled == '1' %}
+nprobe_var_script="/usr/local/opnsense/scripts/OPNsense/nProbe/setup.sh"
+nprobe_enable="YES"
+nprobe_flags="/usr/local/etc/nprobe.conf"
+{% else %}
+nprobe_enable="NO"
+{% endif %}

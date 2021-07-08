@@ -1,0 +1,17 @@
+nProbe is an extensible NetFlow v5/v9/IPFIX probe and
+collector that can be used to send monitored flows
+towards a collector such as the open-source ntopng.
+nProbe has been written in a portable way in order to 
+virtually run on every Unix platform, MacOSX and on 
+Windows as well.
+
+
+Plugin Changelog
+================
+
+1.0
+
+* Initial plugin for exporting flow metadata to ntopng
+
+
+WWW: https://www.ntop.org/products/netflow/nprobe/

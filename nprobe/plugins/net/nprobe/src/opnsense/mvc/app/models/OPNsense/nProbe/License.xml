@@ -1,0 +1,10 @@
+<model>
+    <mount>//OPNsense/nprobe/license</mount>
+    <description>nprobe license configuration</description>
+    <version>0.0.1</version>
+    <items>
+        <licensekey type="TextField">
+            <Required>N</Required>
+        </licensekey>
+    </items>
+</model>

@@ -1,0 +1,4 @@
+nprobe:/etc/rc.conf.d/nprobe
+nprobe.conf:/usr/local/etc/nprobe.conf
+nprobe-ips.conf:/usr/local/etc/nprobe-ips.conf
+nprobe.license:/usr/local/etc/nprobe.license
