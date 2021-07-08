@@ -62,7 +62,6 @@
     <field>
         <id>general.protocols</id>
         <label>Drop Protocols</label>
-        <style>tokenize</style>
         <type>select_multiple</type>
         <allownew>true</allownew>
         <advanced>true</advanced>
@@ -71,7 +70,6 @@
     <field>
         <id>general.protocolcategory</id>
         <label>Drop Categorys</label>
-        <style>tokenize</style>
         <type>select_multiple</type>
         <allownew>true</allownew>
         <advanced>true</advanced>
@@ -80,7 +78,6 @@
     <field>
         <id>general.flowrisks</id>
         <label>Drop Risky Flows</label>
-        <style>tokenize</style>
         <type>select_multiple</type>
         <allownew>true</allownew>
         <advanced>true</advanced>
