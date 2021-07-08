@@ -34,8 +34,10 @@
         <ipsconf type="TextField">
             <Required>N</Required>
         </ipsconf>
-        <localnet type="CSVListField">
+        <localnet type="NetworkField">
             <Required>N</Required>
+            <FieldSeparator>,</FieldSeparator>
+            <asList>Y</asList>
         </localnet>  
         <protocols type="OptionField">
                 <Required>N</Required>
