@@ -34,5 +34,35 @@
         <ipsconf type="TextField">
             <Required>N</Required>
         </ipsconf>
+        <localnet type="CSVListField">
+            <Required>N</Required>
+        </localnet>  
+        <protocols type="OptionField">
+                <Required>N</Required>
+                <multiple>Y</multiple>
+                <OptionValues>
+                        <Option1 value="0">Unknown</Option1>
+                        <Option2 value="1">FTP Control</Option2>
+                        <Option3 value="2">POP3</Option3>
+                </OptionValues>
+        </protocols>
+        <protocolcategory type="OptionField">
+                <Required>N</Required>
+                <multiple>Y</multiple>
+                <OptionValues>
+                        <Option1 value="0">No idea</Option1>
+                        <Option2 value="1">Need to have</Option2>
+                        <Option3 value="2">a look</Option3>
+                </OptionValues>
+        </protocolcategory>
+        <flowrisks type="OptionField">
+                <Required>N</Required>
+                <multiple>Y</multiple>
+                <OptionValues>
+                        <Option1 value="1">XSS attack</Option1>
+                        <Option2 value="1">SQL injection</Option2>
+                        <Option3 value="2">RCE injection</Option3>
+                </OptionValues>
+        </flowrisks>
     </items>
 </model>
