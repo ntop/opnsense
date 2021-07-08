@@ -52,4 +52,38 @@
         <advanced>true</advanced>
 	<help><![CDATA[These lines will be added to the configuration file for the IPS mode. <br/><div class="text-info"><b>NOTE:</b> The syntax will not be checked, use at your own risk!</div>]]></help>
     </field>
+    <field>
+        <id>general.localnet</id>
+        <label>Local Networks</label>
+        <type>text</type>
+        <advanced>true</advanced>
+        <help>Add the networks you want to protect.</help>
+    </field>
+    <field>
+        <id>general.protocols</id>
+        <label>Drop Protocols</label>
+        <style>tokenize</style>
+        <type>select_multiple</type>
+        <allownew>true</allownew>
+        <advanced>true</advanced>
+        <help>Select the protocols you want to drop.</help>
+    </field>
+    <field>
+        <id>general.protocolcategory</id>
+        <label>Drop Categorys</label>
+        <style>tokenize</style>
+        <type>select_multiple</type>
+        <allownew>true</allownew>
+        <advanced>true</advanced>
+        <help>Select the categorys you want to drop.</help>
+    </field>
+    <field>
+        <id>general.flowrisks</id>
+        <label>Drop Risky Flows</label>
+        <style>tokenize</style>
+        <type>select_multiple</type>
+        <allownew>true</allownew>
+        <advanced>true</advanced>
+        <help>Select the risky flows you want to drop.</help>
+    </field>
 </form>
