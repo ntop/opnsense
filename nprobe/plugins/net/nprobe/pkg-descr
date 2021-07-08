@@ -9,6 +9,10 @@ Windows as well.
 Plugin Changelog
 ================
 
+1.1
+
+* Allow to drop protocols and risk application via OPNsense UI
+
 1.0
 
 * Initial plugin for exporting flow metadata to ntopng
