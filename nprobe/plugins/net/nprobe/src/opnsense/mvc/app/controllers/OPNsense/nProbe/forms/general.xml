@@ -57,7 +57,8 @@
         <label>Local Networks</label>
         <style>tokenize</style>
         <type>select_multiple</type>
-        <advanced>true</advanced>
+	<advanced>true</advanced>
+	<allownew>true</allownew>
         <help>Add the networks you want to protect.</help>
     </field>
     <field>
