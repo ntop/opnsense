@@ -55,7 +55,8 @@
     <field>
         <id>general.localnet</id>
         <label>Local Networks</label>
-        <type>text</type>
+        <style>tokenize</style>
+        <type>select_multiple</type>
         <advanced>true</advanced>
         <help>Add the networks you want to protect.</help>
     </field>
