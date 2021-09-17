@@ -34,7 +34,10 @@ POSSIBILITY OF SUCH DAMAGE.
 
 <div class="tab-content content-box tab-content">
     <div id="general" class="tab-pane fade in active">
-        <div class="content-box" style="padding-bottom: 1.5em;">
+    	 <div class="alert alert-info" role="alert" id="overrideMsg">
+	      Warning: by saving this page, all nProbe and nProbe IPS configurations are going to be override
+	 </div>
+	 <div class="content-box" style="padding-bottom: 1.5em;">
             {{ partial("layout_partials/base_form",['fields':generalForm,'id':'frm_general_settings'])}}
             <div class="col-md-12">
                 <hr />
