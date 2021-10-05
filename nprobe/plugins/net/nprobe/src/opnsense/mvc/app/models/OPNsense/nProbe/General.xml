@@ -357,7 +357,7 @@
             <Option4 value="4">Binary application transfer</Option4>
             <Option5 value="5">Known protocol on non standard port</Option5>
             <Option6 value="6">Self-signed Certificate</Option6>
-            <Option7 value="7">Obsolete TLS version (< 1.1)</Option7>
+            <Option7 value="7">Obsolete TLS version (older then 1.1)</Option7>
             <Option8 value="8">Weak TLS cipher</Option8>
             <Option9 value="9">TLS Expired Certificate</Option9>
             <Option10 value="10">TLS Certificate Mismatch</Option10>
