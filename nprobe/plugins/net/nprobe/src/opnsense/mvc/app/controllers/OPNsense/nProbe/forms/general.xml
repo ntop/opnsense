@@ -35,15 +35,19 @@
         <id>general.ips_events</id>
         <label>Collect IPS Events</label>
         <type>checkbox</type>
-        <advanced>true</advanced>
-        <help>This will let nProbe receive IPS policies automatically through ZMQ events from ntopng.</help>
+        <help>This will let nProbe receive IPS policies automatically through ZMQ events from ntopng. If this option is enabled then the below policies will be ignored</help>
+    </field>
+    <field>
+        <id>general.zmq_ips_endpoint</id>
+        <label>Events ZMQ Endpoint (IPS)</label>
+        <type>text</type>
+        <help>ZMQ Endpoint for receiving IPS policies updates published by ntopng.</help>
     </field>
     <field>
         <id>general.localnet</id>
         <label>Local Networks (IPS)</label>
         <style>tokenize</style>
         <type>select_multiple</type>
-	<advanced>true</advanced>
 	<allownew>true</allownew>
         <help>Add the networks you want to protect using IPS mode. Warning: if a WAN interface is monitored then local addresses (e.g. 192.168.1.1/24) are not going to be valid!</help>
     </field>
@@ -52,7 +56,6 @@
         <label>Drop Protocols (IPS)</label>
         <type>select_multiple</type>
         <allownew>true</allownew>
-        <advanced>true</advanced>
         <help>Select the protocols you want to drop. All the traffic having the protocols selected is going to be dropped</help>
     </field>
     <field>
@@ -60,7 +63,6 @@
         <label>Drop Categories (IPS)</label>
         <type>select_multiple</type>
         <allownew>true</allownew>
-        <advanced>true</advanced>
         <help>Select the categories you want to drop. All the traffic belonging to the categories selected is going to be dropped</help>
     </field>
     <field>
@@ -68,7 +70,6 @@
         <label>Drop Risky Flows (IPS)</label>
         <type>select_multiple</type>
         <allownew>true</allownew>
-        <advanced>true</advanced>
         <help>Select the risky flows you want to drop. All the traffic having the selected flow risks is going to be dropped</help>
     </field>
     <field>
@@ -76,7 +77,6 @@
         <label>Drop Countries (IPS)</label>
         <type>select_multiple</type>
         <allownew>true</allownew>
-        <advanced>true</advanced>
         <help>Select the countries you want to drop. All the traffic coming from the selected countries is going to be dropped</help>
     </field>
     <field>
@@ -84,14 +84,6 @@
         <label>Drop Continents (IPS)</label>
         <type>select_multiple</type>
         <allownew>true</allownew>
-        <advanced>true</advanced>
         <help>Select the continents you want to drop. All the traffic coming from the selected continents is going to be dropped</help>
-    </field>
-    <field>
-        <id>general.zmq_ips_endpoint</id>
-        <label>Events ZMQ Endpoint (IPS)</label>
-        <type>text</type>
-        <advanced>true</advanced>
-        <help>ZMQ Endpoint for receiving IPS policies updates published by ntopng.</help>
     </field>
 </form>
