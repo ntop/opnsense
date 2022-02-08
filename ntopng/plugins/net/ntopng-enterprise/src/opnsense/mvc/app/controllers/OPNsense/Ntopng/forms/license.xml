@@ -7,8 +7,8 @@
     </field>
     <field>
         <id>license.community</id>
-        <label>Community Mode</label>
-        <type>checkbox</type>
-        <help>This will run ntopng in Community mode, a license is not required in this mode.</help>
+        <label>Type</label>
+        <type>dropdown</type>
+        <help>Select the release type. A license is not required to run ntopng in Community mode.</help>
     </field>
 </form>
